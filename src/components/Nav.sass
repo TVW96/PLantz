@@ -4,8 +4,11 @@ nav
     display: flex
     justify-content: space-between
     width: 100vw
+    height: 100px
     ul
         list-style-type: none
+        display: flex
+        flex-direction: row
         li
             display: inline-flex
             margin: 0.3em 1em
@@ -14,6 +17,21 @@ nav
         display: inline-flex
         margin: 0.3em 1em
         color: Snow
+
+    .categories
+        display: flex
+        flex-direction: column
+        height: auto
+        ul
+            display: flex
+            flex-direction: column
+            visibility: hidden
+        li
+            display: flex
+            font-size: 0.9em
+    .categories:hover
+        ul
+            visibility: visible
 
 @media (max-width: 576px)
     nav

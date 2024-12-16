@@ -16,6 +16,12 @@ function Nav() {
             <ul>
                 <li className='categories'>
                     <Link to="/categories">Categories</Link>
+                    <ul>
+                        <li>Moses</li>
+                        <li>Ferns</li>
+                        <li>Non-flowering</li>
+                        <li>Flowering</li>
+                    </ul>
                 </li>
                 <li>
                     <Link to="/about">About</Link>
